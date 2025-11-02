@@ -8,3 +8,4 @@ targage = int(input("Enter your age:    "))
 targgender = input("Enter your gender (M) or (F):  ")
 
 plr = playerClass.plr(targname, targage, targgender)
+print(f"Player Stats: {plr.name}, {plr.age}, ({plr.gender})")
